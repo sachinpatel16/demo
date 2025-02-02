@@ -15,8 +15,7 @@ python3.9 -m pip install -r requirements.txt
 mkdir -p staticfiles
 
 # Collect static files (ensure it's pointing to the correct directory)
-python3.9 manage.py collectstatic --noinput --clear --verbosity 3
-
+python3.9 manage.py collectstatic
 # Run migrations
 python3.9 manage.py migrate
 

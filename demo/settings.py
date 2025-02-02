@@ -108,8 +108,11 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+# Directory where you store static files to be collected (Optional)
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # Remove if you don't use custom static directories
+
+# Directory where collected static files will be stored (for deployment)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build')  # Must match the distDir in vercel.json
 
 
 

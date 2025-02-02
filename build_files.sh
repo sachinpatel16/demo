@@ -21,6 +21,6 @@ python3.9 manage.py collectstatic --noinput --clear --verbosity 3
 python3.9 manage.py migrate
 
 # Debug: List files in staticfiles_build
-ls -lah staticfiles_build
+ls -lah staticfiles
 
 echo "BUILD END"

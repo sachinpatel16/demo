@@ -274,6 +274,7 @@ pydantic_core @ file:///C:/b/abs_3ax4s6v28p/croot/pydantic-core_1724790490828/wo
 pydeck @ file:///C:/b/abs_ad9p880wi1/croot/pydeck_1706194121328/work
 PyDispatcher @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pydispatcher_1699543033434/work
 pydocstyle @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pydocstyle_1699495611004/work
+pydub==0.25.1
 pyerfa @ file:///C:/b/abs_477fivsfe8/croot/pyerfa_1717700768172/work
 pyflakes @ file:///C:/b/abs_b6t1aazq2e/croot/pyflakes_1708963020907/work
 Pygments @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pygments_1699474141968/work

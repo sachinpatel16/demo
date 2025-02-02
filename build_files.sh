@@ -17,6 +17,8 @@ mkdir -p staticfiles_build
 # Collect static files
 python3.9 manage.py collectstatic --noinput --clear --verbosity 3
 
+python3.9 manage.py migrate 
+
 # Debug: Check if static files exist
 ls -lah staticfiles_build
 

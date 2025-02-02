@@ -12,7 +12,7 @@ python3.9 -m pip install --upgrade pip
 python3.9 -m pip install -r requirements.txt
 
 # Ensure the staticfiles_build directory exists
-mkdir -p staticfiles_build
+mkdir -p staticfiles
 
 # Collect static files (ensure it's pointing to the correct directory)
 python3.9 manage.py collectstatic --noinput --clear --verbosity 3

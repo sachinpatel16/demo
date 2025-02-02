@@ -114,7 +114,7 @@ STATIC_URL = "/static/"
 
 # Directory where collected static files will be stored (for deployment)
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build')  # Must match the distDir in vercel.json
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Must match the distDir in vercel.json
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')  # Must match the distDir in vercel.json
 
 # If using whitenoise to serve static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
